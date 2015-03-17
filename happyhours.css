@@ -1,0 +1,28 @@
+table {border: none; width:100%; margin-bottom: 0px}
+table tr td {padding: 0;}
+label {color: inherit; font-size: 1rem }
+select {font-size: 1rem !important}
+input[type="text"], textarea {height:inherit !important}
+form#caspioform p {font-size: 0.875rem !important;line-height: 1.125rem !important;}
+a: {#ba0000}
+a:link {color:#ba0000;text-decoration:underline;}      /* unvisited link */
+a:visited {color:#ba0000;text-decoration:underline;}  /* visited link */
+a:hover {color:#ba0000;text-decoration:none;}  /* mouse over link */
+a:active {color:#ba0000;text-decoration:underline;}  /* selected link */
+#venue {padding: 10px 20px 7px 20px}
+#venue h3 {font:1.4rem Arial Black,sans-serif}
+#venue p {font:1rem Arial, sans-serif}
+button, .button {background-color: #ba0000;}
+button, .button {color:white;}
+button, .button {border-color: #ba0000;}
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #ba0000; }
+button:hover, button:focus, .button:hover, .button:focus {
+    color: white; }
+button:visited, .button:visited {color: white;}
+button.tiny, .button.tiny {font-size: .9rem}
+.cmFooterTerms p {font-size: 12px;}
+st.Button .stButton_gradient, .stButton .stButton_gradient, .stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {height: 23px !important}
+h1 {font-family: 'Alfa Slab One', cursive; font-weight:400;}
+.stButton .stBubble_count {height: 41px !important;}
+
