@@ -86,7 +86,7 @@ module.exports = function(grunt) {
       }
     },
 
-    // stage path needs to be set
+    // stage path set
     ftpush: {
       stage: {
         auth: {
@@ -100,7 +100,7 @@ module.exports = function(grunt) {
         simple: false,
         useList: false
       },
-      // prod path will need to change
+      
       prod: {
         auth: {
           host: 'host.coxmediagroup.com',
@@ -108,7 +108,7 @@ module.exports = function(grunt) {
           authKey: 'key1'
         },
         src: 'public',
-        dest: '/stage_aas/projects/happy-hours/',
+        dest: '/stage_aas/projects/happy-hours/', // prod path will need to change
         exclusions: ['dist/tmp','Thumbs.db'],
         simple: false,
         useList: false

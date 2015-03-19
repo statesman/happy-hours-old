@@ -5,11 +5,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <?php
+  $url = $_SERVER['REQUEST_URI'];
+  $path = parse_url($url, PHP_URL_QUERY);
+  $pathFragments = explode('=', $path);
+  $venue = end($pathFragments);
+  $search = array("%20", "%27","%C3%A9");
+  $replace = array(" ", "'","&#233;");
+  $venue = str_replace($search, $replace, $venue);
+?>
+<?php
   $meta = array(
-    "title" => "2015 SXSW Side Parties | Austin360",
+    "title" => "Austin Happy Hours Venue: ".$venue,
     "description" => "Welcome to Austin360's 2015 SXSW Side Parties database. Here, you'll find hundreds of unofficial showcases, side parties and day shows that don't require a SXSW badge during SXSW Interactive, Film and Music.",
-    "thumbnail" => "http://projects.statesman.com/sxsw/assets/share.jpg",
-    "url" => "http://projects.statesman.com/sxsw/",
+    "thumbnail" => "http://projects.statesman.com/happy-hours/assets/happy-hours-logo.jpg",
+    "url" => "http://projects.statesman.com/happy-hours/",
     "twitter" => "austin360"
   );
 ?>
@@ -70,8 +79,8 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./">Quick Search <span class="sr-only">(current)</span></a></li>
-        <li><a href="search.php">Advanced Search</a></li>
+        <li class="active"><a href="./">Search <span class="sr-only">(current)</span></a></li>
+        <li><a href="submit.php">Submit</a></li>
         <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
@@ -87,23 +96,24 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 header">
-      <h3 id="pagetitle">SXSW side parties details</h3>
+      <h3 id="pagetitle">Happy Hours venue details</h3>
       </div>
     </div>
     <div class="row">
       <div id="details" class="col-xs-12 col-sm-6 col-md-8">
         <div>
-    <!-- 2015 deploy pointing to 2014 data -->
-
+    <h3>Venue</h3>
     <!-- Begin Caspio Deploy Code (for inserting in body) -->
-    <?php require_once('dist/dpload.txt');dpload('http://bridge.caspio.net/','e76c0000bdcfcaa3ea914f72925c','i');?>
+    <?php require_once('dist/dpload.txt');dpload('http://bridge.caspio.net/','e76c00008590b6e189b843cd93ff','i');?>
     <!-- End Caspio Deploy Code -->
         </div>
     </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <!-- poster pulled in through script -->
-        <div id="poster"></div>
-        <?php include "includes/promo.inc"; ?>
+        <h3>Specials</h3>
+        <div id="cbe76c00006bb080fc1aea43d2bfc7"></div>
+        <script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
+        <script type="text/javascript" language="javascript">try{f_cbload("e76c00006bb080fc1aea43d2bfc7","http:");}catch(v_e){;}</script>
+        <div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c00006bb080fc1aea43d2bfc7">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
       </div>
     </div>
 
