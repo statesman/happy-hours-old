@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SXSW Side Parties database
 ============================
 
@@ -14,3 +15,9 @@ The guts of this was pulled from our 2014 version built with Foundand and update
 The data for this project is managed through [Caspio](http://www.caspio.com/), which we've done for several years. In 2014 and again in 2015, we utilize a responsive framework to make it mobile friendly, in some cases creating specific Caspio datapages for smaller media queries.
 
 The detail page uses the Caspio [SEO Deployment](http://www.caspio.com/extend/platform-extensions/seo-data-publishing.aspx) which is flaky at best. When I tried to use the current code, it broke all to hell, so I used the deploy code that I had from 2014 and just updated the datapage key.
+
+=======
+Happy Hours update
+==================
+
+>>>>>>> 22b05a72f071d1f54a2b5b6454ec86c856576166
