@@ -91,7 +91,15 @@
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-6">
-        <div id="hh_search">
+        <div class="visible-xs">
+          <h3>xs</h3>
+          <div id="cbe76c00006d2d740819d64d0ea6cc"></div>
+          <script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
+          <script type="text/javascript">try{f_cbload("e76c00006d2d740819d64d0ea6cc","http:");}catch(v_e){;}</script>
+          <div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c00006d2d740819d64d0ea6cc">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+        </div>
+        <div class="hidden-xs">
+          <h3>bigger than xs</h3>
           <div id="cbe76c00002fc8e9f160cb454ea546"></div>
           <script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
           <script type="text/javascript" language="javascript">try{f_cbload("e76c00002fc8e9f160cb454ea546","http:");}catch(v_e){;}</script>
