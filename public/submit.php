@@ -69,7 +69,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="./">Quick Search <span class="sr-only">(current)</span></a></li>
-        <li class="active"><a href="search.php">Advanced Search</a></li>
+        <li class="active"><a href="search.php">Submit</a></li>
         <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
@@ -85,30 +85,19 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 header">
-      <h1 id="pagetitle">SXSW Side Parties</h1>
+      <h1 id="pagetitle">What's your favorite Austin Happy Hour?</h1>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
+    <div class="row row-centered">
+      <div class="col-xs-6 col-centered">
+        <p>Help us create the best happy hour database in Austin. If we are missing a special or need to do an update, fill out the form below to let us know.</p>
           <div id="details">
-            <div class="visible-xs">
-            <div id="cbe76c000021658163a780465ba8e3"></div>
-            <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
-            <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c000021658163a780465ba8e3");}catch(v_e){;}</script>
-            <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c000021658163a780465ba8e3">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
-            </div>
-            <div class="hidden-xs">
-              <div id="cbe76c00003686656895f94a2bb59a"></div>
-              <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
-              <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c00003686656895f94a2bb59a");}catch(v_e){;}</script>
-              <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c00003686656895f94a2bb59a">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
-            </div>
+            <div id="cbe76c0000c5715690d2804e1b8a5d"></div>
+            <script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
+            <script type="text/javascript">try{f_cbload("e76c0000c5715690d2804e1b8a5d","http:");}catch(v_e){;}</script>
+            <div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c0000c5715690d2804e1b8a5d">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
         </div>
-        <?php include "includes/about.inc";?>
      </div>
-      <div class="col-xs-12 col-sm-6">
-        <?php include "includes/promo.inc"; ?>
-      </div>
     </div>
 
 
