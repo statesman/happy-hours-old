@@ -1,5 +1,5 @@
 {
-  "name": "Happy Hours",
+  "name": "happy-hours",
   "description": "Caspio combination database",
   "devDependencies": {
     "grunt": "^0.4.5",
