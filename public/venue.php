@@ -99,6 +99,9 @@
       <h3 id="pagetitle">Happy Hours venue details</h3>
       </div>
     </div>
+
+    <?php include "includes/banner-ad.inc";?>
+
     <div class="row">
       <div id="details" class="col-xs-12 col-sm-6 col-md-8">
         <div>
@@ -122,7 +125,6 @@
   </div>
 
     <!-- bottom matter -->
-    <?php include "includes/banner-ad.inc";?>
     <?php include "includes/legal.inc";?>
     <?php include "includes/project-metrics.inc"; ?>
     <?php include "includes/metrics.inc"; ?>
