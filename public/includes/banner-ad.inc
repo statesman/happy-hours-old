@@ -1,4 +1,4 @@
-<div class="clearfix hidden-xs visible-sm visible-md" id="ads">
+<div class="clearfix hidden-xs visible-sm visible-md visible-lg" id="ads">
 		<!-- www.austin360.com-wired/entertainment/bars -->
 <!--
 	<div class="visible-xs hidden-sm hidden-md hidden-lg col-xs-12">
